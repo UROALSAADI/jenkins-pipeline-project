@@ -48,12 +48,12 @@ pipeline {
 
     post {
         success {
-            mail to: 'your-email@example.com',
+            mail to: 'yaseralsaadi132@gmail.com',
                  subject: "Pipeline succeeded",
                  body: "The pipeline has successfully completed."
         }
         failure {
-            mail to: 'your-email@example.com',
+            mail to: 'yaseralsaadi132@gmail.com',
                  subject: "Pipeline failed",
                  body: "The pipeline has failed. Please check the logs."
         }
