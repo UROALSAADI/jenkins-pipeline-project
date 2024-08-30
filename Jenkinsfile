@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        // Define environment variables here if needed
-        // Example: DIRECTORY_PATH = '/path/to/code'
-    }
-
     stages {
         stage('Build') {
             steps {
